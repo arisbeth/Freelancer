@@ -1,0 +1,54 @@
+
+/* texto dentro de contenedor .bg-succes 
+bootstrap class*/
+.bg-success{
+	color: #ffffff;
+	padding: 5%
+
+}
+/* Star icono*/
+hr[name=banner]{
+	border: solid 2px;
+	width: 20%
+}
+hr[name=banner]:after {
+    content: "\f005";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
+/* texto dentro de contenedor .bg-ouline
+bootstrap class*/
+.btn-outline{
+	border:solid 1px;
+	color:  #ffffff
+}
+/*espacio entre secciones*/
+section[name=info], .skills, #contact{
+	margin-top: 5%
+}
+
+a.navbar-brand{
+	font-size: 2em
+}
+
+/*redes sociales*/
+i[name=social]{
+	border: solid 1px;
+	width: inherit;
+	padding: 10px;
+	border-radius: 100%
+}
+
+footer{
+	color: #ffffff;
+	padding: 3%
+}
+/*copy*/
+.footer-below{
+	background-color: #1a242f;
+	padding: 1%;
+	font-size: .8em;
